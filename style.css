@@ -1,6 +1,6 @@
-.img img {
-width: 20%;
-margin: 5px;
+.img img{
+  width: 20%;
+  margin: 5px;
 }
 .img{
   display: inline-block;
@@ -103,6 +103,7 @@ width: 60%;
 
 .middleimg {
   width: 40%;
+  margin-right: 5%;
 }
 
 .middle2{
@@ -116,6 +117,7 @@ width: 60%;
   padding-bottom: 20px;
   margin-top: 100px;
   width: 100%;
+  display: block;
 }
 
 .about{
@@ -125,11 +127,12 @@ width: 60%;
 
 .en2{
   text-align: center;
+  font-size: 25px;
 }
 .middle3{
   width: 50%;
-  font-size: 15px;
-  margin-left: 50px;
+  font-size: 20px;
+  margin-left: 15%;
 }
 .servicegrid{
   display: grid;
@@ -214,7 +217,7 @@ text-align: center;
 
 .card3{
 display: flex;
-  justify-content: space-between;
+justify-content: space-between;
 }
 .cardtext{
   width: 30%;
@@ -327,6 +330,7 @@ background-color: rgb(187, 181, 181);
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .recruitment{
@@ -335,6 +339,7 @@ background-color: rgb(187, 181, 181);
   position: relative;
   font-size: 30px;
   font-weight: bold;
+  width: 50%;
 }
 
 .empoloyee{
@@ -343,6 +348,7 @@ background-color: rgb(187, 181, 181);
   position: relative;
   font-size: 30px;
   font-weight: bold;
+  width: 50%;
 }
 
 .empoloyeetext{
@@ -386,16 +392,13 @@ background-color: rgb(187, 181, 181);
   left: 35%;
 }
 
-.buttontext ::before{
+.buttontext::before{
+content: "";
 position: absolute;
-top: 50%;
-left: 15px;
-background: url(../20210619ota/img/mailicon.svg);
-background-size: cover;
-width: 30px;
-height: 30px;
-transform: translate(0,-50%);
+width: 30%;
+background: url(/img/mailicon.svg);
 }
+
 
 .last{
   width: 100%;
