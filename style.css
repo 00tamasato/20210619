@@ -19,6 +19,10 @@ margin: 5px;
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+}
+
 .head2 li{
   padding: 5px;
 }
@@ -89,7 +93,8 @@ margin: 5px;
 }
 
 .news{
-margin: 50px;
+margin: 0 auto;
+width: 60%;
 }
 
 .border{
@@ -98,7 +103,6 @@ margin: 50px;
 
 .middleimg {
   width: 40%;
-  margin-right: 20px;
 }
 
 .middle2{
@@ -111,6 +115,7 @@ margin: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 100px;
+  width: 100%;
 }
 
 .about{
@@ -122,15 +127,17 @@ margin: 50px;
   text-align: center;
 }
 .middle3{
-  width: 40%;
-  font-size: 10px;
+  width: 50%;
+  font-size: 15px;
+  margin-left: 50px;
 }
 .servicegrid{
   display: grid;
   grid-template-rows: 200px 200px;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   color: #fff;
-  margin-top: 30px;
+  margin-left: 0%;
+  width: 60%;
 }
 
 .business1{
@@ -213,9 +220,45 @@ display: flex;
   width: 30%;
   box-shadow: 0px 3px 10px rgba(161, 161, 161, 0.514);
   border-radius: 30px;
+  position: relative;
 }
 .cardimg{
   width: 100%;
+  border-radius: 10% 10% 0 0 ;
+}
+.blogtext{
+  background-color: rgba(199, 11, 83,514);
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  font-size: 20px;
+  border-radius: 10px 0 0 0 ;
+  padding: 5px;
+}
+
+.blogtext2{
+  background-color: rgba(199, 11, 83,514);
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 20px;
+  border-radius: 10px 0 0 0 ;
+  padding: 5px;
+}
+
+.blogtext3{
+  background-color: rgba(199, 11, 83,514);
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 20px;
+  border-radius: 10px 0 0 0 ;
+  padding: 5px;
 }
 
 .cardcontent{
@@ -248,7 +291,9 @@ margin: 20px;
   margin-right: auto;
   margin-top: 20px;
 }
-
+.company{
+  margin-left: 15%;
+}
 .company2{
 font-size: 10px;
 }
@@ -257,7 +302,7 @@ font-size: 10px;
   font-size: 20px;
 }
 .kaisha{
-  width: 100%;
+  width: 70%;
 }
 
 .kaisha th{
@@ -302,14 +347,15 @@ background-color: rgb(187, 181, 181);
 
 .empoloyeetext{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50% -50%);
 }
 
 .recruitmenttext{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 40%;
 }
 
 .estratext{
@@ -317,7 +363,7 @@ background-color: rgb(187, 181, 181);
   color: #757575;
 }
 
-.border{
+.border2{
   margin: auto;
   width: 5px;
   height: 50px;
@@ -332,12 +378,12 @@ background-color: rgb(187, 181, 181);
   border-radius: 30px;
   text-align: center;
   box-shadow: rgba(199, 21, 134, 0.651);
-  margin: 100px;
   display: block;
+  margin: 100px;
   background: linear-gradient(90deg,rgba(247, 9, 108, 0.568),rgb(247, 9, 108));
   position: relative;
   top: 50%;
-  left: 25%;
+  left: 35%;
 }
 
 .buttontext ::before{
