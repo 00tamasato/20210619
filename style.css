@@ -127,8 +127,10 @@ margin: 50px;
 }
 .servicegrid{
   display: grid;
-  grid-template-rows: 150px 150px;
-  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 2fr 1fr;
+  color: #fff;
+  margin-top: 30px;
 }
 
 .business1{
@@ -153,16 +155,17 @@ margin: 50px;
 }
 .businessimg{
   width: 25%;
-  margin: 0 auto;
+  display: block;
+  margin: auto;
 }
 
 .businessimg2{
-  width: 25%;
+  width: 50%;
   float: left;
 }
 
 .businessimg3{
-  width: 25%;
+  width: 50%;
   float: left;
 }
 
@@ -183,7 +186,8 @@ font-size: 5px;
 text-align: center;
 }
 .businesscontents{
-  font-size: 5px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 .businesscontents2{
   font-size: 5px;
