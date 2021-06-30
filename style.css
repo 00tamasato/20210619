@@ -396,7 +396,10 @@ background-color: rgb(187, 181, 181);
 content: "";
 position: absolute;
 width: 30%;
-background: url(/img/mailicon.svg);
+height: 35%;
+background: url(./img/mailicon.svg)no-repeat;
+left: 40px;
+top: 15px;
 }
 
 
