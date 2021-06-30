@@ -139,8 +139,7 @@ width: 60%;
   grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
   color: #fff;
-  margin-left: 0%;
-  width: 60%;
+  margin-top: 30px;
 }
 
 .business1{
@@ -166,18 +165,18 @@ width: 60%;
   padding:  15px;
 }
 .businessimg{
-  width: 50%;
+  width: 40%;
   display: block;
   margin: 0 auto;
 }
 
 .businessimg2{
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
 .businessimg3{
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
@@ -208,7 +207,8 @@ text-align: center;
   font-size: 8px;
 }
 .service{
-  margin-left: 300px;
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 .card{
